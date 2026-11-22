@@ -2,7 +2,7 @@ name: Build AGY Hub Catalog
 
 on:
   schedule:
-    - cron: '23 2 * * *' # 每日 UTC 02:23 定时构建
+    - cron: '23 */6 * * *' # 每6小时自动构建
   workflow_dispatch:
   push:
     branches: [main]
