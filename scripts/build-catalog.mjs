@@ -7,13 +7,14 @@ import { join, relative } from 'node:path';
 const WORK_DIR = join(process.cwd(), '.tmp-repos');
 const OUT_DIR = join(process.cwd(), 'dist');
 
-// 第一梯队内置源配置（有 tag 的源优先 pin 到最新 release tag）
+// 第一梯队 + 第二梯队内置源配置
 const SOURCES = [
+  // --- 第一梯队：标准源 / 官方 / 大盘 ---
   {
     id: 'anthropics/skills',
     repo: 'anthropics/skills',
     url: 'https://github.com/anthropics/skills.git',
-    pinMode: 'branch', // 'branch' | 'latest-tag'
+    pinMode: 'branch',
     defaultBranch: 'main',
     defaultLicense: 'Apache-2.0',
   },
@@ -40,8 +41,49 @@ const SOURCES = [
     pinMode: 'latest-tag',
     defaultBranch: 'main',
     defaultLicense: 'MIT',
-    // 可选：限制单仓最大收录数或按白名单过滤，避免首版体量过大
     maxItems: 300,
+  },
+
+  // --- 第二梯队：高质量工程与方法论库 ---
+  {
+    id: 'addyosmani/agent-skills',
+    repo: 'addyosmani/agent-skills',
+    url: 'https://github.com/addyosmani/agent-skills.git',
+    pinMode: 'branch',
+    defaultBranch: 'main',
+    defaultLicense: 'MIT',
+  },
+  {
+    id: 'mattpocock/skills',
+    repo: 'mattpocock/skills',
+    url: 'https://github.com/mattpocock/skills.git',
+    pinMode: 'branch',
+    defaultBranch: 'main',
+    defaultLicense: 'MIT',
+  },
+  {
+    id: 'obra/superpowers',
+    repo: 'obra/superpowers',
+    url: 'https://github.com/obra/superpowers.git',
+    pinMode: 'latest-tag',
+    defaultBranch: 'main',
+    defaultLicense: 'MIT',
+  },
+  {
+    id: 'EveryInc/compound-engineering-plugin',
+    repo: 'EveryInc/compound-engineering-plugin',
+    url: 'https://github.com/EveryInc/compound-engineering-plugin.git',
+    pinMode: 'latest-tag',
+    defaultBranch: 'main',
+    defaultLicense: 'MIT',
+  },
+  {
+    id: 'TerminalSkills/skills',
+    repo: 'TerminalSkills/skills',
+    url: 'https://github.com/TerminalSkills/skills.git',
+    pinMode: 'branch',
+    defaultBranch: 'main',
+    defaultLicense: 'MIT',
   },
 ];
 
