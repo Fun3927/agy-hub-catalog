@@ -292,6 +292,42 @@ function main() {
     items: allItems,
   };
 
+// 读取精选 MCP 清单并合并进 items
+const mcpFile = join(process.cwd(), 'data', 'mcp-curated.json');
+if (existsSync(mcpFile)) {
+  const mcpList = JSON.parse(readFileSync(mcpFile, 'utf8'));
+  const mcpUpdatedAt = now.toISOString();
+  for (const m of mcpList) {
+    const id = `curated/mcp/${m.name}`;
+    if (!m.name || seenIds.has(id)) continue;
+    seenIds.add(id);
+
+    allItems.push({
+      id,
+      sourceId: 'agy-hub/mcp-curated',
+      kind: 'mcp',
+      format: m.transport === 'http' ? 'mcp-http' : 'mcp-stdio',
+      name: m.name,
+      displayName: m.displayName || m.name,
+      description: typeof m.description === 'string' ? { en: m.description } : m.description,
+      category: m.category || 'other',
+      version: m.version || 'v1.0.0',
+      updatedAt: mcpUpdatedAt,
+      license: m.license || null,
+      transport: m.transport || (m.command ? 'stdio' : 'http'),
+      command: m.command || null,
+      args: Array.isArray(m.args) ? m.args : [],
+      serverUrl: m.serverUrl || null,
+      env: m.env || undefined,
+      headers: m.headers || undefined,
+      capabilities: Array.isArray(m.capabilities) ? m.capabilities : ['mcp-stdio'],
+      installTarget: `mcp:${m.name}`,
+      sourceUrl: m.sourceUrl || '',
+      status: 'active',
+    });
+  }
+}
+  
   writeFileSync(join(OUT_DIR, 'registry.json'), JSON.stringify(registry, null, 2));
   writeFileSync(join(OUT_DIR, 'count.json'), JSON.stringify({
     count: allItems.length,
