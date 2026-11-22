@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-22T16:32:55.697Z",
-  "catalogVersion": "2026.11.22-83a918d0",
+  "generatedAt": "2026-11-22T23:40:58.264Z",
+  "catalogVersion": "2026.11.22-36295c7a",
   "sources": [
     {
       "id": "anthropics/skills",
@@ -23,8 +23,8 @@
       "id": "wshobson/agents",
       "repo": "wshobson/agents",
       "ref": "main",
-      "commit": "12bcec7",
-      "lastPushAt": "2026-11-22T10:36:29Z",
+      "commit": "51b9ae3",
+      "lastPushAt": "2026-11-22T13:37:15-05:00",
       "status": "active"
     },
     {
@@ -866,8 +866,8 @@
         "en": "Test web applications with screen readers including VoiceOver, NVDA, and JAWS. Use when validating screen reader compatibility, debugging accessibility issues, or ensuring assistive technology support."
       },
       "category": "testing",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/accessibility-compliance/skills/screen-reader-testing",
@@ -886,8 +886,8 @@
         "en": "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/accessibility-compliance/skills/wcag-audit-patterns",
@@ -906,8 +906,8 @@
         "en": "Coordinate parallel code reviews across multiple quality dimensions with finding deduplication, severity calibration, and consolidated reporting. Use this skill when organizing multi-reviewer code reviews, calibrating finding severity, or consolidating review results."
       },
       "category": "workflow",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/agent-teams/skills/multi-reviewer-patterns",
@@ -926,8 +926,8 @@
         "en": "Debug complex issues using competing hypotheses with parallel investigation, evidence collection, and root cause arbitration. Use this skill when debugging bugs with multiple potential causes, performing root cause analysis, or organizing parallel investigation workflows."
       },
       "category": "debug",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/agent-teams/skills/parallel-debugging",
@@ -946,8 +946,8 @@
         "en": "Coordinate parallel feature development with file ownership strategies, conflict avoidance rules, and integration patterns for multi-agent implementation. Use this skill when decomposing a large feature into independent work streams, when two or more agents need to implement diff"
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/agent-teams/skills/parallel-feature-development",
@@ -966,8 +966,8 @@
         "en": "Decompose complex tasks, design dependency graphs, and coordinate multi-agent work with proper task descriptions and workload balancing. Use this skill when breaking down work for agent teams, managing task dependencies, or monitoring team progress."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/agent-teams/skills/task-coordination-strategies",
@@ -986,8 +986,8 @@
         "en": "Structured messaging protocols for agent team communication including message type selection, plan approval, shutdown procedures, and anti-patterns to avoid. Use this skill when establishing communication norms for a newly spawned team, when deciding whether to send a direct mess"
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/agent-teams/skills/team-communication-protocols",
@@ -1006,8 +1006,8 @@
         "en": "Design optimal agent team compositions with sizing heuristics, preset configurations, and agent type selection. Use this skill when deciding how many agents to spawn for a task, when choosing between a review team versus a feature team versus a debug team, when selecting the corr"
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/agent-teams/skills/team-composition-patterns",
@@ -1026,8 +1026,8 @@
         "en": "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects."
       },
       "category": "debug",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -1048,8 +1048,8 @@
         "en": "Audit and rewrite prose so it stops reading as machine-generated. Use this skill when asked to remove AI-isms, clean up AI writing, edit a draft for AI tells, audit a README, changelog, release note, PR description, or blog post for machine-sounding prose, or make text sound less"
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/avoid-ai-writing/skills/avoid-ai-writing",
@@ -1068,8 +1068,8 @@
         "en": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "shell-exec"
@@ -1090,8 +1090,8 @@
         "en": "Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use this skill when designing clean architecture for a new microservice, when refactoring a monolith to use bounded contexts, when implementing hexagonal"
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/backend-development/skills/architecture-patterns",
@@ -1110,8 +1110,8 @@
         "en": "Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/backend-development/skills/cqrs-implementation",
@@ -1130,8 +1130,8 @@
         "en": "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/backend-development/skills/event-store-design",
@@ -1150,8 +1150,8 @@
         "en": "Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing microservices."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/backend-development/skills/microservices-patterns",
@@ -1170,8 +1170,8 @@
         "en": "Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/backend-development/skills/projection-patterns",
@@ -1190,8 +1190,8 @@
         "en": "Implement saga patterns for distributed transactions and cross-aggregate workflows. Use this skill when implementing distributed transactions across microservices where 2PC is unavailable, designing compensating actions for failed order workflows that span inventory, payment, and"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/backend-development/skills/saga-orchestration",
@@ -1210,8 +1210,8 @@
         "en": "Test Temporal workflows with pytest, time-skipping, and mocking strategies. Covers unit testing, integration testing, replay testing, and local development setup. Use when implementing Temporal workflow tests or debugging test failures."
       },
       "category": "testing",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/backend-development/skills/temporal-python-testing",
@@ -1230,8 +1230,8 @@
         "en": "Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/backend-development/skills/workflow-orchestration-patterns",
@@ -1250,8 +1250,8 @@
         "en": "Pre-build product and feature risk review for founders, product managers, and AI-assisted builders. Use this skill when the user is about to build a landing page, MVP, SaaS product, internal tool, agent workflow, or major feature and needs to check demand, positioning, monetizati"
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/before-you-build/skills/before-you-build",
@@ -1270,8 +1270,8 @@
         "en": "Configure a PreToolUse hook to prevent AI agents from skipping git pre-commit hooks with --no-verify and other bypass flags. Use when setting up Claude Code projects that enforce commit quality gates."
       },
       "category": "git",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "fs-write"
@@ -1292,8 +1292,8 @@
         "en": "Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and flash loans. Use when building decentralized finance applications or smart contract protocols."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/blockchain-web3/skills/defi-protocol-templates",
@@ -1312,8 +1312,8 @@
         "en": "Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minting strategies, and marketplace integration. Use when creating NFT contracts, building NFT marketplaces, or implementing digital asset systems."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/blockchain-web3/skills/nft-standards",
@@ -1332,8 +1332,8 @@
         "en": "Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns. Use when writing smart contracts, auditing existing contracts, or implementing security measures for blockchain applications."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/blockchain-web3/skills/solidity-security",
@@ -1352,8 +1352,8 @@
         "en": "Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forking. Use when testing Solidity contracts, setting up blockchain test suites, or validating DeFi protocols."
       },
       "category": "testing",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "env-secrets",
@@ -1375,8 +1375,8 @@
         "en": "Brand-first landing page designer — runs a brand-identity interview (colors, typography, shape language), then generates and iterates on a polished landing page via Stitch with deployment-ready HTML. Use when the user asks to create, design, or build a landing page, homepage, or "
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -1397,8 +1397,8 @@
         "en": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations."
       },
       "category": "data",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/business-analytics/skills/data-storytelling",
@@ -1417,8 +1417,8 @@
         "en": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service heal"
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/business-analytics/skills/kpi-dashboard-design",
@@ -1437,8 +1437,8 @@
         "en": "Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use this skill when designing zero-downtime deployment pipelines, implementing canary rollout strategies, setting up multi-environment promotion workflows, or debugging failed d"
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/cicd-automation/skills/deployment-pipeline-design",
@@ -1457,8 +1457,8 @@
         "en": "Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or creating reusable workflow templates."
       },
       "category": "git",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "env-secrets",
@@ -1480,8 +1480,8 @@
         "en": "Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for scalable automation. Use when implementing GitLab CI/CD, optimizing pipeline performance, or setting up automated testing and deployment."
       },
       "category": "devops",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -1502,8 +1502,8 @@
         "en": "Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD environments."
       },
       "category": "devops",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "env-secrets",
@@ -1525,8 +1525,8 @@
         "en": "Optimize cloud costs across AWS, Azure, GCP, and OCI through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing cost governance policies."
       },
       "category": "devops",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/cloud-infrastructure/skills/cost-optimization",
@@ -1545,8 +1545,8 @@
         "en": "Configure secure, high-performance connectivity between on-premises infrastructure and cloud platforms using VPN and dedicated connections. Use when building hybrid cloud architectures, connecting data centers to cloud, or implementing secure cross-premises networking."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/cloud-infrastructure/skills/hybrid-cloud-networking",
@@ -1565,8 +1565,8 @@
         "en": "Configure Istio traffic management including routing, load balancing, circuit breakers, and canary deployments. Use when implementing service mesh traffic policies, progressive delivery, or resilience patterns."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/cloud-infrastructure/skills/istio-traffic-management",
@@ -1585,8 +1585,8 @@
         "en": "Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies, or implementing zero-trust networking with minimal overhead."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -1607,8 +1607,8 @@
         "en": "Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/cloud-infrastructure/skills/mtls-configuration",
@@ -1627,8 +1627,8 @@
         "en": "Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, GCP, and OCI. Use when building multi-cloud systems, avoiding vendor lock-in, or leveraging best-of-breed services from multiple providers."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/cloud-infrastructure/skills/multi-cloud-architecture",
@@ -1647,8 +1647,8 @@
         "en": "Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization. Use when setting up mesh monitoring, debugging latency issues, or implementing SLOs for service communication."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/cloud-infrastructure/skills/service-mesh-observability",
@@ -1667,8 +1667,8 @@
         "en": "Build reusable Terraform modules for AWS, Azure, GCP, and OCI infrastructure following infrastructure-as-code best practices. Use when creating infrastructure modules, standardizing cloud provisioning, or implementing reusable IaC components."
       },
       "category": "devops",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/cloud-infrastructure/skills/terraform-module-library",
@@ -1687,8 +1687,8 @@
         "en": ">-"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/conductor/skills/context-driven-development",
@@ -1707,8 +1707,8 @@
         "en": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations."
       },
       "category": "workflow",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/conductor/skills/track-management",
@@ -1727,8 +1727,8 @@
         "en": "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol."
       },
       "category": "git",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/conductor/skills/workflow-patterns",
@@ -1747,8 +1747,8 @@
         "en": "Research public discussion on social platforms and keep every report claim tied to the source material that supports it. Use when researching or comparing how a product, event, or topic is discussed across social platforms or supplied social exports, when turning search results i"
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/content-marketing/skills/social-evidence-research",
@@ -1767,8 +1767,8 @@
         "en": "Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/data-engineering/skills/airflow-dag-patterns",
@@ -1787,8 +1787,8 @@
         "en": "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/data-engineering/skills/data-quality-frameworks",
@@ -1807,8 +1807,8 @@
         "en": "Master dbt (data build tool) for analytics engineering with model organization, testing, documentation, and incremental strategies. Use when building data transformations, creating data models, or implementing analytics engineering best practices."
       },
       "category": "data",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/data-engineering/skills/dbt-transformation-patterns",
@@ -1827,8 +1827,8 @@
         "en": "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/data-engineering/skills/spark-optimization",
@@ -1847,8 +1847,8 @@
         "en": "Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features"
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/database-design/skills/postgresql-table-design",
@@ -1867,8 +1867,8 @@
         "en": "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/developer-essentials/skills/auth-implementation-patterns",
@@ -1887,8 +1887,8 @@
         "en": "Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/developer-essentials/skills/bazel-build-optimization",
@@ -1907,8 +1907,8 @@
         "en": "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers."
       },
       "category": "workflow",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/developer-essentials/skills/code-review-excellence",
@@ -1927,8 +1927,8 @@
         "en": "Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use when investigating bugs, performance issues, or unexpected behavior."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/developer-essentials/skills/debugging-strategies",
@@ -1947,8 +1947,8 @@
         "en": "Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky tests, or establishing testing standards."
       },
       "category": "testing",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/developer-essentials/skills/e2e-testing-patterns",
@@ -1967,8 +1967,8 @@
         "en": "Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error handling, designing APIs, or improving application reliability."
       },
       "category": "debug",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -1989,8 +1989,8 @@
         "en": "Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature branches, or troubleshooting repository issues."
       },
       "category": "git",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/developer-essentials/skills/git-advanced-workflows",
@@ -2009,8 +2009,8 @@
         "en": "Master monorepo management with Turborepo, Nx, and pnpm workspaces to build efficient, scalable multi-package repositories with optimized builds and dependency management. Use when setting up monorepos, optimizing builds, or managing shared dependencies."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "env-secrets",
@@ -2033,8 +2033,8 @@
         "en": "Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/developer-essentials/skills/nx-workspace-patterns",
@@ -2053,8 +2053,8 @@
         "en": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance."
       },
       "category": "data",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2075,8 +2075,8 @@
         "en": "Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optimizing build pipelines, or implementing distributed caching."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "fs-write",
@@ -2098,8 +2098,8 @@
         "en": "Set up a working ML training/inference environment on NVIDIA DGX Spark (GB10, aarch64, CUDA 13). Use when installing PyTorch/Unsloth/TRL/vLLM on DGX Spark, hitting libcudart or wheel-ABI errors on aarch64, or choosing between NGC containers and bare pip installs."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/dgx-spark-ops/skills/spark-environment-setup",
@@ -2118,8 +2118,8 @@
         "en": "Manage unified memory and thermals during long-running ML jobs on NVIDIA DGX Spark. Use when planning memory headroom for a training run on GB10, when a job OOMs on unified memory, or when monitoring temperature and power during multi-hour training."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "shell-exec"
@@ -2140,8 +2140,8 @@
         "en": "Preflight and diagnose the ten known failure modes for ML training on NVIDIA DGX Spark. Use when a training run on DGX Spark fails to start, OOMs below the 128GB limit, slows down mid-run, or before any multi-hour training job on GB10."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "shell-exec"
@@ -2162,8 +2162,8 @@
         "en": "Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant technical decisions, reviewing past architectural choices, or establishing decision processes."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/documentation-generation/skills/architecture-decision-records",
@@ -2182,8 +2182,8 @@
         "en": "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions."
       },
       "category": "git",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2204,8 +2204,8 @@
         "en": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2226,8 +2226,8 @@
         "en": "Use when maintaining a durable Markdown knowledge store that agents compile from sources, when every number or quote in a wiki page must trace back to an immutable source, or when compiled pages need cheap drift detection against the code they describe. Teaches the raw/wiki/archi"
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/documentation-standards/skills/grounded-vault",
@@ -2246,8 +2246,8 @@
         "en": "Use when writing technical documentation that needs to be readable by both humans and AI models, converting existing docs to HADS format, validating a HADS document, or optimizing documentation for token-efficient AI consumption."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/documentation-standards/skills/hads",
@@ -2266,8 +2266,8 @@
         "en": "Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuration, caching, and testing with xUnit. Use when developing .NET backends, reviewing C#"
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2288,8 +2288,8 @@
         "en": "Use when the user needs a local file converted between common image, audio, video, document, or data formats. Select installed tools, preserve originals, and verify the output."
       },
       "category": "media",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "fs-write",
@@ -2311,8 +2311,8 @@
         "en": "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Angular code."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/framework-migration/skills/angular-migration",
@@ -2331,8 +2331,8 @@
         "en": "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/framework-migration/skills/database-migration",
@@ -2351,8 +2351,8 @@
         "en": "Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in libraries."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2373,8 +2373,8 @@
         "en": "Upgrade React applications to latest versions, migrate from class components to hooks, and adopt concurrent features. Use when modernizing React codebases, migrating to React Hooks, or upgrading to latest React versions."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2395,8 +2395,8 @@
         "en": "Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2417,8 +2417,8 @@
         "en": "Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecting React Native projects."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2439,8 +2439,8 @@
         "en": "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/frontend-mobile-development/skills/react-state-management",
@@ -2459,8 +2459,8 @@
         "en": "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2481,8 +2481,8 @@
         "en": "Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/game-development/skills/godot-gdscript-patterns",
@@ -2501,8 +2501,8 @@
         "en": "Master Unity ECS (Entity Component System) with DOTS, Jobs, and Burst for high-performance game development. Use when building data-oriented games, optimizing performance, or working with large entity counts."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/game-development/skills/unity-ecs-patterns",
@@ -2521,8 +2521,8 @@
         "en": "Install and operate Hermes Tweet, a Hermes Agent plugin for X/Twitter research, timeline reading, tweet analysis, and approval-gated private or state-changing operations. Use this skill when installing Hermes Tweet, researching X/Twitter accounts, monitoring launch signals, inves"
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2543,8 +2543,8 @@
         "en": "Create employment contracts, offer letters, and HR policy documents following legal best practices. Use when drafting employment agreements, creating HR policies, or standardizing employment documentation."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/hr-legal-compliance/skills/employment-contract-templates",
@@ -2563,8 +2563,8 @@
         "en": "Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. Use when building systems that process EU personal data, implementing privacy controls, or conducting GDPR compliance reviews."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/hr-legal-compliance/skills/gdpr-data-handling",
@@ -2583,8 +2583,8 @@
         "en": "Use this skill when debugging active macOS connectivity failures, when an API or MCP service times out or disconnects, when DNS resolution is failing or inconsistent, or when video calls or other interactive traffic show packet loss or latency. Isolate local-LAN, DNS, upstream-pa"
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2605,8 +2605,8 @@
         "en": "Create structured incident response runbooks with step-by-step procedures, escalation paths, and recovery actions. Use this skill when building a service outage runbook for a payment processing system; creating database incident procedures covering connection pool exhaustion, rep"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2627,8 +2627,8 @@
         "en": "Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use this skill when transitioning on-call responsibilities between engineers and ensuring the incoming responder has full situational awareness, when writing a shift summary that captur"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/incident-response/skills/on-call-handoff-patterns",
@@ -2647,8 +2647,8 @@
         "en": "Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documents, or improving incident response processes."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/incident-response/skills/postmortem-writing",
@@ -2667,8 +2667,8 @@
         "en": "Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or imple"
       },
       "category": "testing",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "env-secrets",
@@ -2690,8 +2690,8 @@
         "en": "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code. Use when refactoring legacy code, implementing modern patterns"
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/javascript-typescript/skills/modern-javascript-patterns",
@@ -2710,8 +2710,8 @@
         "en": "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backends, or microservices architectu"
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/javascript-typescript/skills/nodejs-backend-patterns",
@@ -2730,8 +2730,8 @@
         "en": "Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety"
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/javascript-typescript/skills/typescript-advanced-types",
@@ -2750,8 +2750,8 @@
         "en": "Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kubernetes deployments with continuous reconciliation. Use when implementing GitOps practices, automating Kubernetes deployments, or setting up declarative infrastructure management."
       },
       "category": "devops",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2772,8 +2772,8 @@
         "en": "Design, organize, and manage Helm charts for templating and packaging Kubernetes applications with reusable configurations. Use when creating Helm charts, packaging Kubernetes applications, or implementing templated deployments."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "shell-exec"
@@ -2794,8 +2794,8 @@
         "en": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or implementing production-grade Kubernetes configurations."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/kubernetes-operations/skills/k8s-manifest-generator",
@@ -2814,8 +2814,8 @@
         "en": "Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing network isolation, or enforcing pod security standards."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/kubernetes-operations/skills/k8s-security-policies",
@@ -2834,8 +2834,8 @@
         "en": "Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains."
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-application-dev/skills/embedding-strategies",
@@ -2854,8 +2854,8 @@
         "en": "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall."
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2876,8 +2876,8 @@
         "en": "Design LLM applications using LangChain 1.x and LangGraph for agents, memory, and tool integration. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -2898,8 +2898,8 @@
         "en": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks."
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-application-dev/skills/llm-evaluation",
@@ -2918,8 +2918,8 @@
         "en": ">-"
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "shell-exec"
@@ -2940,8 +2940,8 @@
         "en": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases."
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-application-dev/skills/rag-implementation",
@@ -2960,8 +2960,8 @@
         "en": "Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance."
       },
       "category": "research",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-application-dev/skills/similarity-search-patterns",
@@ -2980,8 +2980,8 @@
         "en": "Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector search infrastructure."
       },
       "category": "research",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-application-dev/skills/vector-index-tuning",
@@ -3000,8 +3000,8 @@
         "en": "Gate fine-tuned checkpoints with drift budgets, paired comparison, and forgetting checks before promotion. Use after a training run produces a checkpoint, when deciding whether a tuned model ships, or when a promoted model needs re-gating against updated goldens."
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/checkpoint-promotion",
@@ -3020,8 +3020,8 @@
         "en": "Prepare, format, and validate datasets for supervised fine-tuning and preference training. Use when converting raw data into training format, applying chat templates, configuring sequence packing, generating synthetic training data, or writing a dataset card before a run."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/dataset-curation",
@@ -3040,8 +3040,8 @@
         "en": "Build the evaluation harness that gates every fine-tuning run — golden sets, per-failure-mode graders, judge calibration, and base-model baselines. Use when starting a fine-tuning effort, when converting traces into an eval set, or when calibrating a judge against human labels."
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/eval-harness-first",
@@ -3060,8 +3060,8 @@
         "en": "Decide whether to fine-tune at all, and route to the right method (SFT, DPO/ORPO/KTO, GRPO/RLVR, continued pretraining) and base model. Use when starting any fine-tuning effort, when unsure whether RAG or prompting would suffice, or when choosing between preference-optimization a"
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/finetuning-method-selection",
@@ -3080,8 +3080,8 @@
         "en": "Train reasoning and verifiable-task behavior with GRPO and reinforcement learning from verifiable rewards (RLVR). Use when task success is algorithmically checkable (math, code, tool calls, structured output), when designing GRPO reward functions, or when a GRPO run diverges or r"
       },
       "category": "workflow",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/grpo-rlvr-training",
@@ -3100,8 +3100,8 @@
         "en": "Configure LoRA and QLoRA supervised fine-tuning with current best-practice hyperparameters. Use when writing or reviewing a LoRA/QLoRA training configuration, choosing rank/alpha/target modules, or deciding between LoRA, QLoRA, and full fine-tuning."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/lora-qlora-recipes",
@@ -3120,8 +3120,8 @@
         "en": "Align a fine-tuned model with preference data using DPO, ORPO, KTO, or SimPO. Use when preference pairs or thumbs-up/down feedback exist, when choosing between preference-optimization methods, or when a DPO run needs hyperparameters or debugging."
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/preference-optimization",
@@ -3140,8 +3140,8 @@
         "en": "Export a promoted fine-tuned model in the right deployment format — merged safetensors, LoRA-only, GGUF with imatrix, or FP8. Use after a checkpoint passes promotion, when choosing a quantization format for a target device, or when an exported model fails its smoke test."
       },
       "category": "testing",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/quantized-export",
@@ -3160,8 +3160,8 @@
         "en": "Convert evaluation traces and production logs into SFT examples and preference pairs. Use when graded traces or failure examples exist and need to become training data, when applying rejection sampling to model outputs, or when building DPO pairs from passing and failing runs."
       },
       "category": "debug",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/trace-to-training-data",
@@ -3180,8 +3180,8 @@
         "en": "Fine-tune vision-language models (VLMs) with supervised learning on image+text data. Use when adapting a VLM to a visual domain or task, configuring frozen-vision-tower LoRA, or debugging a VLM fine-tune that trains without learning."
       },
       "category": "workflow",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/llm-finetuning/skills/vision-sft",
@@ -3200,8 +3200,8 @@
         "en": "Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows."
       },
       "category": "ai",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/machine-learning-ops/skills/ml-pipeline-workflow",
@@ -3220,8 +3220,8 @@
         "en": "Design composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework popularized by xAI's open-sourced X For You algorithm. Use when building any system that picks \"the top K items for a (user, context)\" — c"
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3242,8 +3242,8 @@
         "en": "Implement distributed tracing with Jaeger and Tempo to track requests across microservices and identify performance bottlenecks. Use when debugging microservices, analyzing request flows, or implementing observability for distributed systems."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/observability-monitoring/skills/distributed-tracing",
@@ -3262,8 +3262,8 @@
         "en": "Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/observability-monitoring/skills/grafana-dashboards",
@@ -3282,8 +3282,8 @@
         "en": "Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, setting up monitoring infrastructure, or configuring alerting systems."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3304,8 +3304,8 @@
         "en": "Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance."
       },
       "category": "debug",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/observability-monitoring/skills/slo-implementation",
@@ -3324,8 +3324,8 @@
         "en": "Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management. Use when implementing subscription billing, automating invoicing, or managing recurring payment systems."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/payment-processing/skills/billing-automation",
@@ -3344,8 +3344,8 @@
         "en": "Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processing online transactions, or building e-commerce checkout flows."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3366,8 +3366,8 @@
         "en": "Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI compliance, or implementing payment card security measures."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/payment-processing/skills/pci-compliance",
@@ -3386,8 +3386,8 @@
         "en": "Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3408,8 +3408,8 @@
         "en": "PluginEval quality methodology, covering dimensions, rubrics, and scoring formulas. Use this skill when understanding how plugin quality is measured, when interpreting a low score on a specific dimension, when deciding how to improve a skill's triggering accuracy or orchestration"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/plugin-eval/skills/evaluation-methodology",
@@ -3428,8 +3428,8 @@
         "en": "Use when preparing the narrative, sources, and design context for a new editable PPTX deck."
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/pptx-deck-creation/skills/pptx-deck-context",
@@ -3448,8 +3448,8 @@
         "en": "Use when validating or repairing an editable PPTX deck for geometry, accessibility, native editability, source lineage, and OOXML package integrity."
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/pptx-deck-creation/skills/pptx-quality-gates",
@@ -3468,8 +3468,8 @@
         "en": "Use when analyzing a reference PPTX for read-only structure, theme, typography, layout rhythm, diagnostics, derived template catalogs, or safe OOXML package inspection."
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "fs-write",
@@ -3492,8 +3492,8 @@
         "en": "Use when authoring or repairing a coordinate-explicit JSON specification for an editable PPTX deck."
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/pptx-deck-creation/skills/pptx-slide-specification",
@@ -3512,8 +3512,8 @@
         "en": "Use when selecting and placing approved supporting icons, images, SVGs, diagrams, or infographics in an editable PPTX deck."
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/pptx-deck-creation/skills/pptx-visual-assets",
@@ -3532,8 +3532,8 @@
         "en": "Configure Cedar policy enforcement and Ed25519 signed receipts for Claude Code tool calls. Use when setting up projects that need cryptographic audit trails, policy-gated tool execution, or compliance-ready evidence of agent actions."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "fs-write",
@@ -3555,8 +3555,8 @@
         "en": "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3577,8 +3577,8 @@
         "en": "Use this skill when reviewing Python code for common anti-patterns to avoid. Use as a checklist when reviewing code, before finalizing implementations, or when debugging issues that might stem from known bad practices."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "env-secrets"
@@ -3599,8 +3599,8 @@
         "en": "Python background job patterns including task queues, workers, and event-driven architecture. Use when implementing async task processing, job queues, long-running operations, or decoupling work from request/response cycles."
       },
       "category": "workflow",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/python-development/skills/python-background-jobs",
@@ -3619,8 +3619,8 @@
         "en": "Python code style, linting, formatting, naming conventions, and documentation standards. Use when writing new code, reviewing style, configuring linters, writing docstrings, or establishing project standards."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3641,8 +3641,8 @@
         "en": "Python configuration management via environment variables and typed settings. Use when externalizing config, setting up pydantic-settings, managing secrets, or implementing environment-specific behavior."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "env-secrets"
@@ -3663,8 +3663,8 @@
         "en": "Python design patterns including KISS, Separation of Concerns, Single Responsibility, and composition over inheritance. Use this skill when designing a new service or component from scratch and choosing how to layer responsibilities, when refactoring a God class or monolithic fun"
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/python-development/skills/python-design-patterns",
@@ -3683,8 +3683,8 @@
         "en": "Python error handling patterns including input validation, exception hierarchies, and partial failure handling. Use when implementing validation logic, designing exception strategies, handling batch processing failures, or building robust APIs."
       },
       "category": "debug",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/python-development/skills/python-error-handling",
@@ -3703,8 +3703,8 @@
         "en": "Python observability patterns including structured logging, metrics, and distributed tracing. Use when adding logging, implementing metrics collection, setting up tracing, or debugging production systems."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/python-development/skills/python-observability",
@@ -3723,8 +3723,8 @@
         "en": "Create distributable Python packages with proper project structure, setup.py/pyproject.toml, and publishing to PyPI. Use when packaging Python libraries, creating CLI tools, or distributing Python code."
       },
       "category": "automation",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/python-development/skills/python-packaging",
@@ -3743,8 +3743,8 @@
         "en": "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/python-development/skills/python-performance-optimization",
@@ -3763,8 +3763,8 @@
         "en": "Python project organization, module architecture, and public API design. Use when setting up new projects, organizing modules, defining public interfaces with __all__, or planning directory layouts."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/python-development/skills/python-project-structure",
@@ -3783,8 +3783,8 @@
         "en": "Python resilience patterns including automatic retries, exponential backoff, timeouts, and fault-tolerant decorators. Use when adding retry logic, implementing timeouts, building fault-tolerant services, or handling transient failures."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3805,8 +3805,8 @@
         "en": "Python resource management with context managers, cleanup patterns, and streaming. Use when managing connections, file handles, implementing cleanup logic, or building streaming responses with accumulated state."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "fs-write",
@@ -3828,8 +3828,8 @@
         "en": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices."
       },
       "category": "testing",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3850,8 +3850,8 @@
         "en": "Python type safety with type hints, generics, protocols, and strict type checking. Use when adding type annotations, implementing generic classes, defining structural interfaces, or configuring mypy/pyright."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/python-development/skills/python-type-safety",
@@ -3870,8 +3870,8 @@
         "en": "Master the uv package manager for fast Python dependency management, virtual environments, and modern Python project workflows. Use when setting up Python projects, managing dependencies, or optimizing Python development workflows with uv."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -3892,8 +3892,8 @@
         "en": "Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/quantitative-trading/skills/backtesting-frameworks",
@@ -3912,8 +3912,8 @@
         "en": "Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/quantitative-trading/skills/risk-metrics-calculation",
@@ -3932,8 +3932,8 @@
         "en": "Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use this skill when analyzing malware evasion techniques, when implementing anti-debugging protections for CTF challenges, when reverse engineering packed binaries, or when bui"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/reverse-engineering/skills/anti-reversing-techniques",
@@ -3952,8 +3952,8 @@
         "en": "Master binary analysis patterns including disassembly, decompilation, control flow analysis, and code pattern recognition. Use when analyzing executables, understanding compiled code, or performing static analysis on binaries."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/reverse-engineering/skills/binary-analysis-patterns",
@@ -3972,8 +3972,8 @@
         "en": "Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating incidents, or performing malware analysis from RAM captures."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/reverse-engineering/skills/memory-forensics",
@@ -3992,8 +3992,8 @@
         "en": "Master network protocol reverse engineering including packet analysis, protocol dissection, and custom protocol documentation. Use when analyzing network traffic, understanding proprietary protocols, or debugging network communication."
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/reverse-engineering/skills/protocol-reverse-engineering",
@@ -4012,8 +4012,8 @@
         "en": "Configure human-in-the-loop gating for AI agent review actions in Claude Code. Use when setting up a project where an agent may post PR reviews, comments, merges, or edit CI configuration, and you want a cryptographically auditable approval trail with Cedar-enforced gates."
       },
       "category": "git",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "fs-write",
@@ -4035,8 +4035,8 @@
         "en": "Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/security-scanning/skills/attack-tree-construction",
@@ -4055,8 +4055,8 @@
         "en": "Configure Static Application Security Testing (SAST) tools for automated vulnerability detection in application code. Use when setting up security scanning, implementing DevSecOps practices, or automating code vulnerability detection."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -4077,8 +4077,8 @@
         "en": "Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/security-scanning/skills/security-requirement-extraction",
@@ -4097,8 +4097,8 @@
         "en": "Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/security-scanning/skills/stride-analysis-patterns",
@@ -4117,8 +4117,8 @@
         "en": "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness."
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/security-scanning/skills/threat-mitigation-mapping",
@@ -4137,8 +4137,8 @@
         "en": "Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety."
       },
       "category": "devops",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/shell-scripting/skills/bash-defensive-patterns",
@@ -4157,8 +4157,8 @@
         "en": "Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities."
       },
       "category": "testing",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "fs-write"
@@ -4179,8 +4179,8 @@
         "en": "Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability."
       },
       "category": "automation",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/shell-scripting/skills/shellcheck-configuration",
@@ -4199,8 +4199,8 @@
         "en": "Scans the codebase to generate project-doc.md and AGENTS.md. Use when bootstrapping a new agent-driven repo, refreshing project documentation after architectural changes, or running a delta scan to detect drift. Runs a full scan on first use and a smart delta scan on subsequent r"
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -4221,8 +4221,8 @@
         "en": "Step-by-step cookbook for setting up cryptographically signed audit trails on Claude Code tool calls. Use when explaining, evaluating, or demonstrating the pattern before committing to the protect-mcp runtime hooks. Covers Cedar policy, Ed25519 receipts, offline verification, tam"
       },
       "category": "security",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -4243,8 +4243,8 @@
         "en": ">-"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/skill-forge-essentials/skills/ai-debt-detector",
@@ -4263,8 +4263,8 @@
         "en": ">-"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/skill-forge-essentials/skills/session-guard",
@@ -4283,8 +4283,8 @@
         "en": ">-"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/skill-forge-essentials/skills/visual-edit-precision",
@@ -4303,8 +4303,8 @@
         "en": "Schedule and publish social media posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via the SocialClaw API. Use when the user wants to publish, schedule, or manage social media content programmatic"
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -4325,8 +4325,8 @@
         "en": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill when evaluating competitors, assessing market positioning, identifying sustainable "
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/startup-business-analyst/skills/competitive-landscape",
@@ -4345,8 +4345,8 @@
         "en": "Calculate TAM/SAM/SOM for market opportunities using top-down, bottom-up, and value theory methodologies. Use this skill when sizing markets, estimating addressable revenue, validating market opportunity for a new venture, or building investor-ready market analysis for a startup "
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/startup-business-analyst/skills/market-sizing-analysis",
@@ -4365,8 +4365,8 @@
         "en": "Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups. Use this skill when creating financial projections, calculating burn rate or runway, modeling fundraising scenarios, or pre"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/startup-business-analyst/skills/startup-financial-modeling",
@@ -4385,8 +4385,8 @@
         "en": "Track, calculate, and optimize key performance metrics for SaaS, marketplace, consumer, and B2B startups from seed through Series A, including unit economics, growth efficiency, and cash management. Use this skill when defining a metrics framework, calculating CAC/LTV/burn multip"
       },
       "category": "other",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/startup-business-analyst/skills/startup-metrics-framework",
@@ -4405,8 +4405,8 @@
         "en": "Design optimal team structures, hiring plans, compensation strategies, and equity allocation for early-stage startups from pre-seed through Series A. Use this skill when planning headcount, determining which roles to hire next, setting compensation or equity ranges, designing org"
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/startup-business-analyst/skills/team-composition-analysis",
@@ -4425,8 +4425,8 @@
         "en": "Use when a project keeps its state in Superself (a `<!-- superself:begin` block in AGENTS.md or CLAUDE.md, or `self setup` resolves the directory to a registered project): read `self context` at session start, attach work to a work unit, report with evidence, and record confirmed"
       },
       "category": "docs",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -4447,8 +4447,8 @@
         "en": "Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/systems-programming/skills/go-concurrency-patterns",
@@ -4467,8 +4467,8 @@
         "en": "Implement memory-safe programming with RAII, ownership, smart pointers, and resource management across Rust, C++, and C. Use when writing safe systems code, managing resources, or preventing memory bugs."
       },
       "category": "dev",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/systems-programming/skills/memory-safety-patterns",
@@ -4487,8 +4487,8 @@
         "en": "Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code."
       },
       "category": "debug",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [
         "network"
@@ -4509,8 +4509,8 @@
         "en": "Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, implementing ARIA patterns, building for screen readers, or ensuring inclusive user experiences."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/accessibility-compliance",
@@ -4529,8 +4529,8 @@
         "en": "Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building component libraries, or establishing design system foundations."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/design-system-patterns",
@@ -4549,8 +4549,8 @@
         "en": "Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/interaction-design",
@@ -4569,8 +4569,8 @@
         "en": "Master Material Design 3 and Jetpack Compose patterns for building native Android apps. Use when designing Android interfaces, implementing Compose UI, or following Google's Material Design guidelines."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/mobile-android-design",
@@ -4589,8 +4589,8 @@
         "en": "Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps. Use when designing iOS interfaces, implementing SwiftUI views, or ensuring apps follow Apple's design principles."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/mobile-ios-design",
@@ -4609,8 +4609,8 @@
         "en": "Master React Native styling, navigation, and Reanimated animations for cross-platform mobile development. Use when building React Native apps, implementing navigation patterns, or creating performant animations."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/react-native-design",
@@ -4629,8 +4629,8 @@
         "en": "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/responsive-design",
@@ -4649,8 +4649,8 @@
         "en": "Apply typography, color theory, spacing systems, and iconography principles to create cohesive visual designs. Use when establishing design tokens, building style guides, or improving visual hierarchy and consistency."
       },
       "category": "ui",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/visual-design-foundations",
@@ -4669,8 +4669,8 @@
         "en": "Master React, Vue, and Svelte component patterns including CSS-in-JS, composition strategies, and reusable component architecture. Use when building UI component libraries, designing component APIs, or implementing frontend design systems."
       },
       "category": "browser",
-      "version": "0.0.0-12bcec7",
-      "updatedAt": "2026-11-22T10:36:29Z",
+      "version": "0.0.0-51b9ae3",
+      "updatedAt": "2026-11-22T13:37:15-05:00",
       "license": "MIT",
       "capabilities": [],
       "installTarget": "gh:wshobson/agents@main#plugins/ui-design/skills/web-component-design",
@@ -36931,7 +36931,7 @@
       },
       "category": "git",
       "version": "v0.6.2",
-      "updatedAt": "2026-11-22T16:32:55.697Z",
+      "updatedAt": "2026-11-22T23:40:58.264Z",
       "license": "MIT",
       "transport": "stdio",
       "command": "npx",
@@ -36965,7 +36965,7 @@
       },
       "category": "browser",
       "version": "v0.0.20",
-      "updatedAt": "2026-11-22T16:32:55.697Z",
+      "updatedAt": "2026-11-22T23:40:58.264Z",
       "license": "Apache-2.0",
       "transport": "stdio",
       "command": "npx",
@@ -36995,7 +36995,7 @@
       },
       "category": "docs",
       "version": "v1.0.0",
-      "updatedAt": "2026-11-22T16:32:55.697Z",
+      "updatedAt": "2026-11-22T23:40:58.264Z",
       "license": "MIT",
       "transport": "http",
       "command": null,
