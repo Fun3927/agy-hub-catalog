@@ -1,0 +1,52 @@
+[
+  {
+    "name": "github",
+    "displayName": "GitHub MCP",
+    "category": "git",
+    "version": "v0.6.2",
+    "license": "MIT",
+    "description": {
+      "en": "Official GitHub MCP server for repos, issues, PRs, and code search.",
+      "zh": "GitHub 官方 MCP，支持仓库、Issue、PR 与代码检索。"
+    },
+    "transport": "stdio",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-github"],
+    "env": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+    },
+    "capabilities": ["mcp-stdio", "network", "env-secrets"],
+    "sourceUrl": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "playwright",
+    "displayName": "Playwright MCP",
+    "category": "browser",
+    "version": "v0.0.20",
+    "license": "Apache-2.0",
+    "description": {
+      "en": "Browser automation and accessibility snapshot inspection via Playwright.",
+      "zh": "基于 Playwright 的浏览器自动化与页面快照读取。"
+    },
+    "transport": "stdio",
+    "command": "npx",
+    "args": ["-y", "@playwright/mcp@latest"],
+    "capabilities": ["mcp-stdio", "network"],
+    "sourceUrl": "https://github.com/microsoft/playwright-mcp"
+  },
+  {
+    "name": "context7",
+    "displayName": "Context7 Docs",
+    "category": "docs",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "description": {
+      "en": "Fetch up-to-date library documentation and code examples directly into context.",
+      "zh": "实时拉取最新开源库文档与代码示例。"
+    },
+    "transport": "http",
+    "serverUrl": "https://mcp.context7.com/mcp",
+    "capabilities": ["network"],
+    "sourceUrl": "https://github.com/upstash/context7"
+  }
+]
