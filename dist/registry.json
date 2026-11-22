@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-22T15:32:38.307Z",
+  "generatedAt": "2026-11-22T16:32:55.697Z",
   "catalogVersion": "2026.11.22-83a918d0",
   "sources": [
     {
@@ -36916,6 +36916,96 @@
       "installTarget": "gh:TerminalSkills/skills@main#skills/zustand",
       "rawUrl": "https://raw.githubusercontent.com/TerminalSkills/skills/main/skills/zustand/SKILL.md",
       "sourceUrl": "https://github.com/TerminalSkills/skills/blob/main/skills/zustand/SKILL.md",
+      "status": "active"
+    },
+    {
+      "id": "curated/mcp/github",
+      "sourceId": "agy-hub/mcp-curated",
+      "kind": "mcp",
+      "format": "mcp-stdio",
+      "name": "github",
+      "displayName": "GitHub MCP",
+      "description": {
+        "en": "Official GitHub MCP server for repos, issues, PRs, and code search.",
+        "zh": "GitHub 官方 MCP，支持仓库、Issue、PR 与代码检索。"
+      },
+      "category": "git",
+      "version": "v0.6.2",
+      "updatedAt": "2026-11-22T16:32:55.697Z",
+      "license": "MIT",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "serverUrl": null,
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      },
+      "capabilities": [
+        "mcp-stdio",
+        "network",
+        "env-secrets"
+      ],
+      "installTarget": "mcp:github",
+      "sourceUrl": "https://github.com/modelcontextprotocol/servers",
+      "status": "active"
+    },
+    {
+      "id": "curated/mcp/playwright",
+      "sourceId": "agy-hub/mcp-curated",
+      "kind": "mcp",
+      "format": "mcp-stdio",
+      "name": "playwright",
+      "displayName": "Playwright MCP",
+      "description": {
+        "en": "Browser automation and accessibility snapshot inspection via Playwright.",
+        "zh": "基于 Playwright 的浏览器自动化与页面快照读取。"
+      },
+      "category": "browser",
+      "version": "v0.0.20",
+      "updatedAt": "2026-11-22T16:32:55.697Z",
+      "license": "Apache-2.0",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ],
+      "serverUrl": null,
+      "capabilities": [
+        "mcp-stdio",
+        "network"
+      ],
+      "installTarget": "mcp:playwright",
+      "sourceUrl": "https://github.com/microsoft/playwright-mcp",
+      "status": "active"
+    },
+    {
+      "id": "curated/mcp/context7",
+      "sourceId": "agy-hub/mcp-curated",
+      "kind": "mcp",
+      "format": "mcp-http",
+      "name": "context7",
+      "displayName": "Context7 Docs",
+      "description": {
+        "en": "Fetch up-to-date library documentation and code examples directly into context.",
+        "zh": "实时拉取最新开源库文档与代码示例。"
+      },
+      "category": "docs",
+      "version": "v1.0.0",
+      "updatedAt": "2026-11-22T16:32:55.697Z",
+      "license": "MIT",
+      "transport": "http",
+      "command": null,
+      "args": [],
+      "serverUrl": "https://mcp.context7.com/mcp",
+      "capabilities": [
+        "network"
+      ],
+      "installTarget": "mcp:context7",
+      "sourceUrl": "https://github.com/upstash/context7",
       "status": "active"
     }
   ]
