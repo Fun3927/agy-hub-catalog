@@ -1,0 +1,61 @@
+name: Build AGY Hub Catalog
+
+on:
+  schedule:
+    - cron: '23 2 * * *' # 每日 UTC 02:23 定时构建
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/build-catalog.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: catalog-build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build registry.json
+        run: node scripts/build-catalog.mjs
+
+      - name: Commit dist if catalog changed
+        run: |
+          if [ -n "$(git status --porcelain dist/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add dist/registry.json dist/count.json
+            git commit -m "chore(catalog): update registry ($(jq -r .catalogVersion dist/count.json))"
+            git push
+          else
+            echo "No catalog changes."
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy-pages:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
