@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-25T08:51:41.193Z",
-  "catalogVersion": "2026.11.25-013d49b6",
+  "generatedAt": "2026-11-25T21:50:28.628Z",
+  "catalogVersion": "2026.11.25-9ad1122b",
   "sources": [
     {
       "id": "anthropics/skills",
@@ -47,8 +47,8 @@
       "id": "mattpocock/skills",
       "repo": "mattpocock/skills",
       "ref": "main",
-      "commit": "d653911",
-      "lastPushAt": "2026-11-24T14:43:03Z",
+      "commit": "6f7f783",
+      "lastPushAt": "2026-11-25T12:08:23Z",
       "status": "active"
     },
     {
@@ -36935,7 +36935,7 @@
       },
       "category": "git",
       "version": "v0.6.2",
-      "updatedAt": "2026-11-25T08:51:41.193Z",
+      "updatedAt": "2026-11-25T21:50:28.628Z",
       "license": "MIT",
       "transport": "stdio",
       "command": "npx",
@@ -36969,7 +36969,7 @@
       },
       "category": "browser",
       "version": "v0.0.20",
-      "updatedAt": "2026-11-25T08:51:41.193Z",
+      "updatedAt": "2026-11-25T21:50:28.628Z",
       "license": "Apache-2.0",
       "transport": "stdio",
       "command": "npx",
@@ -36999,7 +36999,7 @@
       },
       "category": "docs",
       "version": "v1.0.0",
-      "updatedAt": "2026-11-25T08:51:41.193Z",
+      "updatedAt": "2026-11-25T21:50:28.628Z",
       "license": "MIT",
       "transport": "http",
       "command": null,
