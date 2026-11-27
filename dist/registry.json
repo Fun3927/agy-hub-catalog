@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-26T21:43:19.272Z",
-  "catalogVersion": "2026.11.26-e941935a",
+  "generatedAt": "2026-11-27T08:48:35.996Z",
+  "catalogVersion": "2026.11.27-e941935a",
   "sources": [
     {
       "id": "anthropics/skills",
@@ -36935,7 +36935,7 @@
       },
       "category": "git",
       "version": "v0.6.2",
-      "updatedAt": "2026-11-26T21:43:19.272Z",
+      "updatedAt": "2026-11-27T08:48:35.996Z",
       "license": "MIT",
       "transport": "stdio",
       "command": "npx",
@@ -36969,7 +36969,7 @@
       },
       "category": "browser",
       "version": "v0.0.20",
-      "updatedAt": "2026-11-26T21:43:19.272Z",
+      "updatedAt": "2026-11-27T08:48:35.996Z",
       "license": "Apache-2.0",
       "transport": "stdio",
       "command": "npx",
@@ -36999,7 +36999,7 @@
       },
       "category": "docs",
       "version": "v1.0.0",
-      "updatedAt": "2026-11-26T21:43:19.272Z",
+      "updatedAt": "2026-11-27T08:48:35.996Z",
       "license": "MIT",
       "transport": "http",
       "command": null,
