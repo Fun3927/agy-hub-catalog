@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-27T21:27:58.192Z",
-  "catalogVersion": "2026.11.27-ae7aeb45",
+  "generatedAt": "2026-11-28T08:04:28.771Z",
+  "catalogVersion": "2026.11.28-b9dc2f2b",
   "sources": [
     {
       "id": "anthropics/skills",
@@ -15,8 +15,8 @@
       "id": "google-labs-code/stitch-skills",
       "repo": "google-labs-code/stitch-skills",
       "ref": "main",
-      "commit": "75f4696",
-      "lastPushAt": "2026-11-24T13:51:03-08:00",
+      "commit": "c78718b",
+      "lastPushAt": "2026-11-27T21:15:16-08:00",
       "status": "active"
     },
     {
@@ -510,10 +510,11 @@
         "en": ">-"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
+        "fs-write",
         "network",
         "shell-exec"
       ],
@@ -533,8 +534,8 @@
         "en": ">-"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "fs-write",
@@ -557,8 +558,8 @@
         "en": "Convert Stitch designs into production React + Vite dashboards with TanStack Query, accessible tokens from DESIGN.md, and Web3-ready patterns (ethers/viem)."
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "network"
@@ -579,8 +580,8 @@
         "en": "Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "fs-write",
@@ -603,8 +604,8 @@
         "en": "Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices."
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "network",
@@ -626,8 +627,8 @@
         "en": ">-"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [],
       "installTarget": "gh:google-labs-code/stitch-skills@main#plugins/stitch-design/skills/code-to-design",
@@ -646,8 +647,8 @@
         "en": ">-"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "fs-write",
@@ -670,8 +671,8 @@
         "en": ">-"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "network",
@@ -693,8 +694,8 @@
         "en": ">-"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "network"
@@ -715,8 +716,8 @@
         "en": ">-"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "env-secrets",
@@ -738,8 +739,8 @@
         "en": ">-"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "env-secrets",
@@ -762,8 +763,8 @@
         "en": "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "network"
@@ -784,8 +785,8 @@
         "en": "Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results."
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "network"
@@ -806,8 +807,8 @@
         "en": "Analyze a project description or site requirements and synthesize a project constitution into SITE.md for the Stitch Build Loop"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [],
       "installTarget": "gh:google-labs-code/stitch-skills@main#plugins/stitch-utilities/skills/site-md",
@@ -826,8 +827,8 @@
         "en": "Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern"
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "network"
@@ -848,8 +849,8 @@
         "en": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance."
       },
       "category": "ui",
-      "version": "0.0.0-75f4696",
-      "updatedAt": "2026-11-24T13:51:03-08:00",
+      "version": "0.0.0-c78718b",
+      "updatedAt": "2026-11-27T21:15:16-08:00",
       "license": "Apache-2.0",
       "capabilities": [
         "network"
@@ -36935,7 +36936,7 @@
       },
       "category": "git",
       "version": "v0.6.2",
-      "updatedAt": "2026-11-27T21:27:58.192Z",
+      "updatedAt": "2026-11-28T08:04:28.771Z",
       "license": "MIT",
       "transport": "stdio",
       "command": "npx",
@@ -36969,7 +36970,7 @@
       },
       "category": "browser",
       "version": "v0.0.20",
-      "updatedAt": "2026-11-27T21:27:58.192Z",
+      "updatedAt": "2026-11-28T08:04:28.771Z",
       "license": "Apache-2.0",
       "transport": "stdio",
       "command": "npx",
@@ -36999,7 +37000,7 @@
       },
       "category": "docs",
       "version": "v1.0.0",
-      "updatedAt": "2026-11-27T21:27:58.192Z",
+      "updatedAt": "2026-11-28T08:04:28.771Z",
       "license": "MIT",
       "transport": "http",
       "command": null,
